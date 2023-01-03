@@ -1,0 +1,108 @@
+/* styles.css
+Stylesheet for TOP Recipe Project
+Created on: 01.02.23
+*/
+
+body {
+    font-family: "Courier New", sans-serif;
+    text-align: center;
+    background-color: #f1faee;
+    color: #000000;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #a8dadc;
+    border: 2px solid black;
+    padding: 10px;
+    background-size: auto;
+    color: #1d3557;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header.minor {
+    font-size: 36px;
+}
+
+.header.minor.small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    font-size: 30px;
+}
+
+.header.minor.list {
+    display: inline-block;
+    width: 650px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #f1faee;
+    background-color: #3F9B9E;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+ul.pagelink {
+    list-style-type: none;
+    margin-left: -34px;
+}
+
+a {
+    color: #1D3557;
+    font-style: italic;
+}
+
+.link.highlight {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: #204E4F;
+}
+
+.link.highlight a {
+    color: #f1faee;
+}
+
+img{
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+img.index-link {
+    width: 30px;
+    height: auto;
+    border: none;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 1000px;
+}
+
+.attribution {
+    font-size: 10px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.summary {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
